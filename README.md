@@ -1,4 +1,3 @@
-# baitap
 <html lang="en">
 <style>
       h1{color: #d63031;
@@ -23,6 +22,14 @@ Cách giải quyết: </p>
 
     <p style="color: red; font-weight: bold;">Vận dụng 2: Có thể thiết lập định dạng cho các khung với thông số khung, viền trên, dưới, trái, phải khác nhau được không? Em hãy tìm hiểu và trình bày cách thiết lập định dạng CSS cho các khung, viền như vậy.
 Có, bạn có thể thiết lập định dạng khác nhau cho các khung và viền trên, dưới, trái, phải bằng cách sử dụng thuộc tính CSS border và các thuộc tính liên quan.</p>
+<p>Có, bạn có thể thiết lập định dạng khác nhau cho các khung và viền trên, dưới, trái, phải bằng cách sử dụng thuộc tính CSS border và các thuộc tính liên quan.
+Cách thiết lập định dạng CSS cho các khung và viền như vậy như sau:</p>
+    <p>- Sử dụng thuộc tính border để định dạng viền của khung. </p>
+    <p>-Để thiết lập viền khác nhau cho các cạnh, bạn có thể sử dụng các thuộc tính border-top, border-bottom, border-left và border-right để chỉ định viền cho từng cạnh riêng biệt.</p>
+	
+	<a href="NHOM1-12L.html"> Quay lại trang chủ</a>
+</body>
+</html>
 <html lang="en">
 <style>
       h1{color: white;
@@ -34,11 +41,11 @@ Có, bạn có thể thiết lập định dạng khác nhau cho các khung và 
   <body>
  
  <h1>Bài 17: CÁC MỨC ƯU TIÊN CỦA BỘ</h1>
-    <p style="color: #C4E538; font-weight: bold; font-size: 1.2em;">Luyện tập 1: Giải thích sự khác nhau giữa hai định dạng sau:</p>
+    <p style="color: #C4E538; font-weight: bold; font-size: 1.2em;">Luyện tập 1: Giải thích sự khác nhau giữa hai định dạng sau:</p>
      <p> #p123 + p {color: red;} </p> 
 
      <p> h2#p123 + p {color: red;}</p>  
-   <p>• #p123 + p {color: red;} : áp dụng cho phần tử p với điều kiện phần tử p nằm ngay sau phần tử bất kì có mã định danh #p123</p>
+   <p>• #p123 + p {color: red;} : áp dụng cho phần tử p với điều kiện phần tử p nằm ngay sau phần tử bất kì có mã định danh #p123</p>
 
   <p>•h2#p123 + p {color: red;}: áp dụng cho phần tử p với điều kiện phần tử p nằm ngay sau phần tử h2 có mã định danh #p123</p>
 
@@ -47,7 +54,7 @@ Có, bạn có thể thiết lập định dạng khác nhau cho các khung và 
 
    <p>• Tạo mẫu định dạng CSS cho phần tử < em >: em {font-style: italic; border: 1px solid blue;}</p>
 
-   <p style="color: #009432; font-weight: bold; font-size: 1.2em;"> Vận dụng 1: Tìm hiểu thêm các dạng pseudo-class khác, nêu ý nghĩa và tìm ví dụ ứng dụ thực tế cho các kiểu bộ chọn này</p>
+   <p style="color: #009432; font-weight: bold; font-size: 1.2em;"> Vận dụng 1: Tìm hiểu thêm các dạng pseudo-class khác, nêu ý nghĩa và tìm ví dụ ứng dụ thực tế cho các kiểu bộ chọn này</p>
      <p>Các trạng thái của phần tử input:</p>
 
      <p>•checked: được chọn (type=checkbox)</p>
@@ -118,3 +125,183 @@ Country: <input type="text" disabled="disabled" value="Viet Nam"><br><br>
 </body>
 
 </html></p>
+<p style="color: #006266; font-weight: bold; font-size: 1.2em;"> Vận dụng 2: Tìm hiểu thêm các dạng pseuso-element khác, nêu ý nghĩa và tìm ví dụ ứng dụng thực tế cho các kiểu bộ chọn này.</p>
+ <p>Các phần tử giả:</p>
+
+ <p>•before: thành phần phía trước</p>
+
+ <p>•after: thành phần phía sau</p>
+
+ <p>•marker: thành phần đánh dấu</p>
+
+<p><style></p>
+<p>h1::before {content: url(smiley.gif);}</p>
+
+<p>h1::after {content: url(smiley.gif);}</p>
+
+<p>::marke {color: red; font-size: 23px;}</p>
+
+<p></style></p>
+<img src="126.png" width="447" height="467" alt="Ảnh minh họa">
+ <p><style>
+<p><html>
+
+<head>
+
+<style>
+
+h1::before {content: url(smiley.gif);}
+
+h1::after {content: url(smiley.gif);}
+
+::marker {color: #6ab04c; font-size: 23px;}
+
+</style>
+
+</head>
+
+<body>
+
+<h1 style="background-color: #6ab04c;">This is a heading</h1>
+
+<ul>
+
+<li>Coffee</li>
+
+<li>Tea</li>
+
+<li>Milk</li>
+
+</ul>
+
+<ol>
+
+<li>First</li>
+
+<li>Second</li>
+
+<li>Third</li>
+
+</ol>
+	 <a style="color: #44bd32"; href="NHOM1-12L.html"> Quay lại trang chủ</a>
+
+</body>
+
+</html></p>
+
+
+
+
+
+ 
+</body>
+</html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Câu Lạc Bộ</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Liên kết file CSS -->
+</head>
+<style>
+      h1{color: #d63031;
+      background:  #ff7675;
+      border: 70px solid #ff7675;
+    	}
+      h2{color: blue;
+      font-weight: bold; 
+      font-size: 1.2em;
+        }
+</style>
+<body>
+    <h1> Bài 18:Thực hành tổng hợp thiết kế trang web</h1>
+    <h2> Luyện tập 1: Tạo trang dangki.html chứa biểu mẫu đăng kí câu lạc bộ và bổ sung liên kết tới trang dangki trong phần cuối trang của tất cả các trang </h2>
+    <header>
+        <h3>Đăng Ký Tham Gia Câu Lạc Bộ</h3>
+    </header>
+    <main>
+        <form action="submit_form.php" method="POST">
+            <label for="fullname">Họ và Tên:</label>
+            <input type="text" id="fullname" name="fullname" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Số Điện Thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="club">Chọn Câu Lạc Bộ:</label>
+            <select id="club" name="club" required>
+                <option value="bong_da">Bóng Đá</option>
+                <option value="am_nhac">Âm Nhạc</option>
+                <option value="nhiếp_anh">Nhiếp Ảnh</option>
+                <option value="sach">Câu Lạc Bộ Sách</option>
+            </select>
+            <label for="message">Lời Nhắn:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <button type="submit">Đăng Ký</button>
+        </form>
+    </main>
+  <footer>
+     <p>&copy; 2025 Câu Lạc Bộ Trường Học</p>
+  </footer>
+  <h2> Luyện tập 2 trang 105 Tin học 12: Thay đổi định dạng và màu sắc của phông chữ trong các vùng khi di chuyển chuột qua.</h2>
+  <p> Để thay đổi định dạng và màu sắc của phông chữ trong các vùng khi di chuyển chuột qua, em có thể sử dụng hiệu ứng hover trong CSS.</p>
+  <p>  vung {</p>
+<p>font-family: Arial, sans-serif;</p>
+<p>font-size: 14px;</p>
+<p>color: #333;</p>
+         <p>}</p>
+<p>.vung:hover {</p>
+<p>font-size: 16px;</p>
+<p>color: red;</p>
+<p>font-weight: bold; </p>
+            }
+  <h2>Vận dụng : Để áp dụng thiết kế mới cho trang web đã tạo trong phần Thực hành, em cần thực hiện các bước sau:</h2>
+  <p>- Tạo một tệp CSS mới và đặt tên là "style.css" (hoặc tên tùy chọn khác).</p>
+  <p>- Trong tệp CSS, thêm mã CSS để định dạng các phần tử theo thiết kế mới.</p>
+  <em>Ví dụ:</em>
+  <em style=" font-weight: bold; font-size: 1.2em;>/* Định dạng phần banner */</em>
+  <p>.banner {</p>
+<p>background: url("../assets/img/bg-masthead.jpg") no-repeat center center;</p>
+  <p>background-size: cover;</p>
+  <p>padding-top: 12rem;</p>
+  <p>padding-bottom: 12rem;</p>
+  <p>text-align: center;</p>
+  <p>color: darkred;</p>
+  <p>}</p>
+  <p>.banner h2 {</p>
+  <p>font-size: 36px;</p>
+  <p>font-weight: bold;</p>
+  <p>}</p>
+  <a href="NHOM1-12L.html"> Quay lại trang chủ</a>  
+  <em style="font-weight: bold; font-size: 1.2em;>/* Định dạng phần slogan */</em>
+  <p>.slogan {</p>
+  <p>background-color: rgb(248, 249, 250);</p>
+  <p>text-align: center;</p>
+  <p>padding-right: 0.5rem;</p>
+  <p>padding-left: 3rem;</p>
+  <p>padding-top: 7rem;</p>
+  <p>padding-bottom: 7rem;</p>
+  <p>}</p>
+  <p>.row {</p>
+  <p>display: flex;</p>
+  <p>flex-wrap: wrap;</p>
+  <p>margin-top: -1;</p>
+  <p>max-width: 100%;</p>
+  <p>padding-right: 3rem;</p>
+  <p>padding-left: 3rem;</p>
+  <p>}</p>
+  <p>.block_3 {</p>
+  <p>flex: 0 0 33.33333333%;</p>
+  <p>}</p>
+  <p>.block_3 h3 {</p>
+  <p>font-size: 24px;</p>
+  <p>font-weight: bold;</p>
+  <p>}</p>
+  <p>.text-content {</p>
+  <p>font-size: 16px;</p>
+  <p>color: #333;</p>
+  <p>}</p>               
+ </body>
+</html>
