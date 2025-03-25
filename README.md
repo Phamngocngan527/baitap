@@ -1,27 +1,23 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload Ảnh</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Trang Web Ảnh</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        .container { max-width: 600px; margin: auto; }
+        .image-gallery img { width: 200px; height: auto; margin: 10px; border-radius: 5px; }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Upload và Xem Ảnh</h1>
-        <input type="file" id="imageInput" multiple accept="image/*">
-        <div class="image-preview" id="preview"></div>
+        <h1>Bộ Sưu Tập Ảnh</h1>
+        <div class="image-gallery">
+            <a href="images/image1.jpg"><img src="images/image1.jpg" alt="Ảnh 1"></a>
+            <a href="images/image2.jpg"><img src="images/image2.jpg" alt="Ảnh 2"></a>
+            <a href="images/image3.jpg"><img src="images/image3.jpg" alt="Ảnh 3"></a>
+        </div>
     </div>
-
-    <script>
-        document.getElementById('imageInput').addEventListener('change', function(event) {
-            const preview = document.getElementById('preview');
-            preview.innerHTML = ''; // Xóa ảnh cũ
-            Array.from(event.target.files).forEach(file => {
-                const img = document.createElement('img');
-                img.src = URL.createObjectURL(file);
-                preview.appendChild(img);
-            });
-        });
-    </script>
 </body>
 </html>
