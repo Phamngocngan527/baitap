@@ -24,6 +24,9 @@
             <a href="images/image9.jpg"><img src="9.png" alt="Ảnh 9"></a>
             <a href="images/image10.jpg"><img src="10.png" alt="Ảnh 10"></a>
             <a href="images/image11.jpg"><img src="11.png" alt="Ảnh 11"></a>
+            <a href="images/image12.jpg"><img src="12.png" alt="Ảnh 12"></a>
+            <a href="images/image13.jpg"><img src="13.png" alt="Ảnh 13"></a>
+            <a href="images/image14.jpg"><img src="14.png" alt="Ảnh 14"></a>
         </div>
     </div>
 </body>
