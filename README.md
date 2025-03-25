@@ -16,7 +16,7 @@
         <div class="image-gallery">
             <a href="images/image1.jpg"><img src="1.png" alt="Ảnh 1"></a>
             <a href="images/image2.jpg"><img src="2.png" alt="Ảnh 2"></a>
-            <a href="images/image3.jpg"><img src="" alt="Ảnh 3"></a>
+            <a href="images/image3.jpg"><img src="3.png" alt="Ảnh 3"></a>
         </div>
     </div>
 </body>
